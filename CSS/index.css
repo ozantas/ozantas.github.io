@@ -12,7 +12,7 @@
 
 #profilResmi img{
     width: 30%;
-    min-width: 16px;
+    min-width: 64px;
     border-radius: 500px;
     margin-left:35%;
     margin-right: 35%;
@@ -22,7 +22,7 @@
 .link{
     display: inline-block;
     width:8%;
-/*    min-width: 32px;*/
+    min-width: 32px;
     margin: 8%;
 }
 
