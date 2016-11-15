@@ -7,23 +7,59 @@
     width: 50%;
     margin-left:auto;
     margin-right: auto;
-    margin-top: 7%;
+    margin-top: 20px;
+}
+
+#content #aciklama{
+    margin-top: 30px;
+    padding: 20px;
+    color: #757575;
+    font-family: cursive;
+}
+
+#aciklama p{
+    margin-bottom: 30px;
+    text-indent: 10px;
+}
+
+
+h2{
+    color:#212121;
+    text-indent: 10px;
+}
+a{
+    color:red;
+    color:#212121;
 }
 
 #profilResmi img{
-    width: 30%;
+    width: 20%;
     min-width: 64px;
     border-radius: 500px;
-    margin-left:35%;
-    margin-right: 35%;
+    margin-left:40%;
+    margin-right: 40%;
     
 }
 
-.link{
-    display: inline-block;
-    width:8%;
-    min-width: 64px;
-    margin: 8%;
+#linkler{
+    
+    position: absolute;
+    top: 30%;
+    border-radius: 5px;
+    background-color: #1F1F1F;
+}
+#linkler ul li{
+    border-radius: 50px;
+    margin: 10px;
+}
+
+#linkler ul li:hover{
+    background-color: #636363;
+    transition: .3s;
+}
+
+#linkler img{
+    width: 48px;
 }
 
 @media screen and (max-device-width:680px) {
