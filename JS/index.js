@@ -1,6 +1,6 @@
 $(function(){
     
-    $("#solda,#profilResmi").hover(function(){
+    $("#solda,#profilResmi img").hover(function(){
         $("#linkler").css({
             "box-shadow":"30px 0px 100px black",
             "transition":".5s"
