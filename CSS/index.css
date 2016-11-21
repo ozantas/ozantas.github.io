@@ -1,13 +1,15 @@
 *{
     margin: 0px;
     padding: 0px;
+    list-style: none;
 }
 
 #content{
     width: 50%;
     margin-left:auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 10px;
+    line-height: 25px;
 }
 
 #content #aciklama{
@@ -50,7 +52,9 @@ a{
 }
 #linkler ul li{
     border-radius: 50px;
-    margin: 10px;
+    margin: 12px;
+    color: white;
+    font-size: 10px;
 }
 
 #linkler ul li:hover{
@@ -60,6 +64,11 @@ a{
 
 #linkler img{
     width: 48px;
+}
+
+sup{
+   color: #d92e2e;
+   font-style: italic;
 }
 
 @media screen and (max-device-width:680px) {
